@@ -34,6 +34,7 @@ print()
 
 print( 'O maior número é: ')
 print( maior)
+
 print( 'O menor número é: ')
 print( menor)
 

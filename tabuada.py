@@ -2,7 +2,7 @@ numero = int( input( 'Numero: '))
 
 print( f'A tabuada de { numero}.')
 print( '_' * 49)
-for n in range( 11):
+for n in range( 1, 10):
     print( f'|{ numero} + { n:>2} = { numero + n:>2}|', end = '')
     print( f'|{ numero} * { n:>2} = { numero * n:>2}|', end = '')
     print( f'|{ numero} / { n:>2} = { numero / n:>2.2f}|', end = '')
